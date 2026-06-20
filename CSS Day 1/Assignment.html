@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Day 1 Assignment</title>
+    <style>
+        
+        body {
+            margin: 0;
+            background-color: rgba(188, 189, 189, 0.088);
+            font-family: sans-serif;
+        }
+
+        .card {
+          background-color: white;
+          width: 270px;
+          margin: 20px auto;
+          padding: 30px;
+          text-align: center;
+          border-radius: 10px;
+        }
+
+        .title
+        {
+            margin-top: 0px;
+        }
+
+        .details {
+            color:gray;
+        }
+
+        .card-textbox {
+            border: 1px solid blue;
+            outline: none;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .card-textbox:focus {
+             border-color: blue;
+             box-shadow: 0 4px 18px rgba(18, 18, 218, 0.993), 0 0 0 4px rgba(20, 20, 222, 0.06);
+             transform: translateY(-1px);
+        }
+
+        .continue-button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(83, 83, 196);
+            color: white;
+            border: 0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img style="box-sizing: border-box;" src="./Messages-rafiki.png" width="100%">
+        <h1 class="title">Check your email</h1>
+        <p class="details">Enter the 6-digit code we just sent to <span style="color: black;">amy.smith@zest.com</span> to continue.</p>
+        <br>
+        <input type="text" class="card-textbox" name="text-username" />
+        <br>
+        <button type="submit" class="continue-button">Continue</button>
+    </div>
+</body>
+</html>
