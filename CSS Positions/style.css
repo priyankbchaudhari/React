@@ -20,7 +20,7 @@ body
     width: 570px;
     margin: 10px auto;
     padding: 10px;
-    display: none;
+    /* display: none; */
 }
 
 .room-img{

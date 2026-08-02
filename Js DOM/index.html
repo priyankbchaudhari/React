@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .box-container
+        {
+            display: flex;
+            flex-wrap: wrap;   
+        }
+        
+        .box {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 14px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- <div class="w-[400px] mx-auto mt-36">
+        <h1 id="heading" class="text-2xl font-bold">Have you Completed previous javascript lectures ?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda. Quia nesciunt quisquam nostrum voluptatum eos deleniti nam maiores libero?</p>
+        <button id='btn' onclick="unlock()" class="bg-black text-white px-4 py-2 rounded-lg mt-2"> Yes, completed </button>
+    </div> -->
+
+    <!-- <div class="w-[400px] mx-auto mt-36">
+        <h1 id="heading" class="text-2xl font-bold">Welcome to the Javascript Bootcamp! <span id="nameSpan"></span></h1>
+                
+        <input type="text" id="name" placeholder="Enter Name" class="w-full py-2 border px-3 rounded-xl focus:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-200"/>
+        <button id='btn' onclick="welcome()" class="bg-black text-white px-4 py-2 rounded-lg mt-2"> Yes, completed </button>
+    </div> -->
+
+    <!-- <div class="w-[400px] mx-auto mt-36 text-center">
+        
+        <h1 id="result"></h1>
+        <h1 id="heading" class="text-2xl font-bold">Split the bills among your friends</h1>
+
+        <p id="details" class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, est!</p>    
+         
+        <div class="flex gap-2">
+            <input type="number" id="amount" placeholder="Enter Amount" class="mt-3 w-full py-2 border px-3 rounded-xl focus:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-200"/>
+            <input type="number" id="noOfPerson" placeholder="Enter Person" class="mt-3 w-full py-2 border px-3 rounded-xl focus:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-200"/>
+        </div>
+        
+        <button id='btn' onclick="spit()" class="bg-black w-full text-white px-4 py-2 rounded-lg mt-3"> Yes, completed </button>
+    </div> -->
+
+    <!-- <div class="w-[400px] mx-auto mt-36 text-center">
+        
+        <h1 id="result" class="text-8xl font-bold font-black">0</h1>
+        <h1 id="heading" class="text-2xl font-bold">Basic javascript Counter APP</span></h1>
+         
+        <div class="flex gap-2">
+            <button onclick="increment()" class="bg-black w-full text-white px-4 py-2 rounded-lg mt-3"> Increment </button>
+            <button onclick="decrement()" class="bg-black w-full text-white px-4 py-2 rounded-lg mt-3"> Decrement </button>        
+        </div>
+    </div>  -->
+
+    <div class="w-[400px] mx-auto mt-36 text-center">
+        
+        <h1 id="heading" class="text-2xl font-bold">Create a Box container</span></h1>
+         
+        <div class="flex">
+            <button onclick="create()" class="bg-black w-full text-white px-4 py-2 rounded-lg mt-3"> Create Box </button>
+        </div>
+    </div>
+
+
+    <div id="boxContainer" class="box-container">
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
